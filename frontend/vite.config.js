@@ -13,7 +13,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: 'frontend/dist', // Diretório onde a build será gerada
+    outDir: 'frontend/public', // Diretório onde a build será gerada
     rollupOptions: {
       input: {
         main: 'frontend/index.html', // Certifique-se de que o caminho está correto
